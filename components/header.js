@@ -9,8 +9,8 @@ export default function header() {
           <input type="text" className="input-text" placeholder="Search..." />
         </div>
         <div className="shrink w-80 sm:order-2">
-          <Link href={"/"} className="font-bold uppercase text-3xl">
-            Design
+          <Link href={"/"} className="font-bold uppercase text-3xl font-serif">
+            Edu-Blogs
           </Link>
         </div>
         <div className="w-96 order-3 flex justify-center">
