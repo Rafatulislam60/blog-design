@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ImFacebook, ImInstagram, ImYoutube } from "react-icons/im";
+import { ImFacebook, ImTwitter, ImYoutube } from "react-icons/im";
 
 export default function header() {
   return (
@@ -10,19 +10,19 @@ export default function header() {
         </div>
         <div className="shrink w-80 sm:order-2">
           <Link href={"/"} className="font-bold uppercase text-3xl font-serif">
-            Edu-Blogs
+            Edu-<span className="text-[#F21855] font-serif">Blogs</span>
           </Link>
         </div>
         <div className="w-96 order-3 flex justify-center">
           <div className="flex gap-6">
             <Link href={"/"}>
-              <ImFacebook color="#888888" />
+              <ImFacebook className="text-blue-500" />
             </Link>
             <Link href={"/"}>
-              <ImInstagram color="#888888" />
+              <ImTwitter className="text-blue-500" />
             </Link>
             <Link href={"/"}>
-              <ImYoutube color="#888888" />
+              <ImYoutube className="text-red-500" />
             </Link>
           </div>
         </div>

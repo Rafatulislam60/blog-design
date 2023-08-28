@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ImFacebook, ImInstagram, ImYoutube } from "react-icons/im";
+import { ImFacebook, ImTwitter, ImYoutube } from "react-icons/im";
 import Newsletter from "./_child/newsletter";
 
 export default function footer() {
@@ -15,14 +15,14 @@ export default function footer() {
       <div className="container mx-auto flex justify-center py-12">
         <div className="py-5">
           <div className="flex gap-6 justify-center">
-            <Link href={"/"}>
-              <ImFacebook color="#888888" />
+          <Link href={"/"}>
+              <ImFacebook className="text-blue-500" />
             </Link>
             <Link href={"/"}>
-              <ImInstagram color="#888888" />
+              <ImTwitter className="text-blue-500" />
             </Link>
             <Link href={"/"}>
-              <ImYoutube color="#888888" />
+              <ImYoutube className="text-red-500" />
             </Link>
           </div>
 
