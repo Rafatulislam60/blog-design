@@ -1,6 +1,7 @@
 import Format from "../../layout/format";
 
 // components
+import BookAdd from "../../components/bookAdd";
 import Planning from "../../components/planning";
 import Section1 from "../../components/section1";
 import Section2 from "../../components/section2";
@@ -15,6 +16,7 @@ export default function Home() {
       <Section3 />
       <Planning />
       <Section4 />
+      <BookAdd />
     </Format>
   );
 }
